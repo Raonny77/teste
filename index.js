@@ -28,7 +28,7 @@ function exibirLayout() {
     console.log(linha);
     console.log('  +---+---+---+---+');
   }
-  
+
   console.log('\nLegenda: O = Livre | X = Ocupada\n');
 }
 
@@ -93,6 +93,7 @@ function comprarIngresso() {
   cadeiras[linha][coluna] = true;
   
   // Confirmação da compra
+  console.clear();
   console.log('\n========================================');
   console.log('✅ COMPRA CONFIRMADA COM SUCESSO!');
   console.log(`   Cadeira: ${posicao}`);
